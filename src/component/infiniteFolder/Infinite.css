@@ -1,0 +1,42 @@
+
+.infiniteWrapper{
+    width: 100%;
+}
+
+
+.folderWrapper{
+    display: flex;
+   flex-direction: column;
+ background-color: gainsboro;
+ width: 40%;
+ padding: 1%;
+ margin: 1%;
+
+}
+.inputBox{
+    border: none ;
+    padding: 5px;
+    background-color: transparent;
+
+}
+span{
+    padding: 2px ;
+    color: blue ;
+    cursor: pointer;
+}
+.inputeMain{
+    padding: 5px;
+    border: 2px solid gray;
+    height: 30px ;
+    border-radius: 5px;
+    width:30% ;
+}
+.btn{
+  border: none ;
+  width: 10%;
+  border-radius: 5px;
+  height: 30px;
+  background-color: blue;
+  color: #ffffff;
+  margin: 0 2%;
+}

@@ -1,0 +1,45 @@
+a module bundler provides a method for arranging and merging multiple JavaScript files
+ into a unified single file. 
+ Using a JavaScript bundler becomes necessary when
+  your project outgrows a single file or 
+  when dealing with libraries with numerous dependencies. As a result, 
+the end-user's browser or client doesn't have to fetch numerous files individually.
+
+
+
+
+//
+1. HyperText Transfer Protocol (HTTP): HyperText Transfer Protocol (HTTP) is a protocol using which hypertext is transferred over the Web. Due to its simplicity, http has been the most widely used protocol for data transfer over the Web but the data (i.e. hypertext) exchanged using http isn’t as secure as we would like it to be. In fact, hyper-text exchanged using http goes as plain text i.e. anyone between the browser and server can read it relatively easily if one intercepts this exchange of data. 
+
+2. Hypertext Transfer Protocol Secure (HTTPS): Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication. In HTTPS, the communication protocol is encrypted using Transport Layer Security.
+
+
+//
+
+A single-page application is defined as an application (web app or website) that loads only a single page and then rewrites the page with new content fetched from a web server as the user interacts with it instead of loading a new page for every interaction.
+
+
+//
+Client-Side Rendering (CSR)
+CSR, also known as client-side rendering, is a technique where the rendering process occurs on the client-side, typically in the user’s web browser.
+
+In CSR, the server sends a minimal HTML document along with JavaScript files to the client. The JavaScript code is responsible for fetching data from an API and manipulating the Document Object Model (DOM) to update the user interface.
+
+🎯Advantages of CSR:
+
+Enhanced interactivity: CSR enables highly interactive web applications as the client can update the UI without making additional requests to the server. This results in a smooth and responsive user experience.
+Improved performance: Once the initial page load is complete, subsequent interactions can be faster since the client-side rendering avoids full page refreshes. Only the necessary components or data are fetched, reducing the server load and improving overall performance.
+
+Server-Side Rendering (SSR)
+SSR, or server-side rendering, is an alternative rendering technique where the server generates a fully rendered HTML page for each request and sends it to the client. In SSR, the server handles both the rendering and data fetching processes, ensuring that the client receives a complete and ready-to-display page.
+
+🎯Advantages of SSR:
+
+Improved SEO: Search engine crawlers can easily parse the fully rendered HTML page, making SSR favorable for websites that heavily rely on organic search traffic. This approach ensures that search engines index the content accurately and comprehensively.
+Initial load performance: SSR can provide a better initial load performance compared to CSR because the server sends a fully rendered page. This can be particularly beneficial for content-heavy websites or applications where fast page load times are crucial.
+
+
+NPM is a package manager used to install, update or remove packages and dependencies your project requires. NPX is an NPM package used to execute any package on the NPM registry directly without installing it. 
+
+
+Well, all the latest javascript features are not supported in every browser yet. So someone needs to do the converting part right? So babel is here to transpile latest javascript features(ES6 features) which are not understandable to every browser to ES5 which is understandable to every browser.

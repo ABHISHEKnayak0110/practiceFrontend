@@ -1,0 +1,26 @@
+.cardWraaper{
+    width: 50%;
+    border: 2px solid red ;
+    margin: 2px;
+
+}
+.card{
+     width: 100%;
+     padding:1%;
+     border: 1px solid green;
+    
+}
+.imgDiv{
+    transform: translate(calc(50% - 50px) , -50%);
+}
+.img{
+    width:  100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
